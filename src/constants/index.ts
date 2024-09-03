@@ -36,6 +36,8 @@ import {
   linkedin,
   twitter,
   github,
+  rdso,
+  leetcode,
 } from "../assets";
 
 // Navbar Links
@@ -55,11 +57,11 @@ export const NAV_LINKS = [
     title: "Contact",
     link: null,
   },
-  {
-    id: "source-code",
-    title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
-  },
+  // {
+  //   id: "source-code",
+  //   title: "Source Code",
+  //   link: "http://www.github.com/sanidhyy/3d-portfolio/",
+  // },
 ] as const;
 
 // Services
@@ -104,10 +106,10 @@ export const TECHNOLOGIES = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -120,10 +122,10 @@ export const TECHNOLOGIES = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -140,58 +142,57 @@ export const TECHNOLOGIES = [
 
 // Experiences
 export const EXPERIENCES = [
+  // {
+    // title: "React.js Developer",
+    // company_name: "Starbucks",
+    // icon: starbucks,
+    // iconBg: "#383E56",
+    // date: "March 2020 - April 2021",
+    // points: [
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+    // ],
+  // },
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Summer Intern",
+    company_name: "RDSO",
+    icon: rdso,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2024 - July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Efficiently improved the RDSO website through PHP, executing key updates that boosted performance and enhanced user experience.",
+      "Incorporated PostgreSQL to introduce robust database functionality, facilitating effective data management and storage",
+      "Designed and launched a comprehensive website from the ground up, garnering over 1,000 users and demonstrating proficiency in PHP, PostgreSql,and JavaScript",
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+    // title: "Web Developer",
+    // company_name: "Shopify",
+    // icon: shopify,
+    // iconBg: "#383E56",
+    // date: "Jan 2022 - Jan 2023",
+    // points: [
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+    // ],
+  // },
+  // {
+    // title: "Full stack Developer",
+    // company_name: "Meta",
+    // icon: meta,
+    // iconBg: "#E6DEDD",
+    // date: "Jan 2023 - Present",
+    // points: [
+      // "Developing and maintaining web applications using React.js and other related technologies.",
+      // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      // "Implementing responsive design and ensuring cross-browser compatibility.",
+      // "Participating in code reviews and providing constructive feedback to other developers.",
+    // ],
+  // },
 ] as const;
 
 // Testimonials
@@ -224,39 +225,39 @@ export const TESTIMONIALS = [
 
 // Projects
 export const PROJECTS = [
+  // {
+    // name: "Disney+ Clone",
+    // description:
+      // "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+    // tags: [
+      // {
+        // name: "react",
+        // color: "blue-text-gradient",
+      // },
+      // {
+        // name: "firebase",
+        // color: "green-text-gradient",
+      // },
+      // {
+        // name: "css",
+        // color: "pink-text-gradient",
+      // },
+    // ],
+    // image: project1,
+    // source_code_link: "https://github.com/sanidhyy/disney-clone",
+    // live_site_link: "https://clonedisneyplus.web.app/",
+  // },
   {
-    name: "Disney+ Clone",
+    name: "Blog Website",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "Web application that enables users to read blogs by other people and create their own blogs.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
-  },
-  {
-    name: "Golds Gym",
-    description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
+        name: "cloudfare workers",
         color: "green-text-gradient",
       },
       {
@@ -265,118 +266,118 @@ export const PROJECTS = [
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
+    source_code_link: "https://github.com/ShivanshPlays/Medium-clone-blog-website-",
+    live_site_link: "https://medium-clone-blog-website-a1wea74lv-shivanshplays-projects.vercel.app/blogs",
   },
-  {
-    name: "Shoppy",
-    description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "syncfusion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
-  },
-  {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
-  },
-  {
-    name: "Cryptoverse",
-    description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
-  },
-  {
-    name: "Travel Advisor",
-    description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
-  },
+  // {
+    // name: "Shoppy",
+    // description:
+      // "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+    // tags: [
+      // {
+        // name: "react",
+        // color: "blue-text-gradient",
+      // },
+      // {
+        // name: "syncfusion",
+        // color: "green-text-gradient",
+      // },
+      // {
+        // name: "scss",
+        // color: "pink-text-gradient",
+      // },
+    // ],
+    // image: project3,
+    // source_code_link: "https://github.com/sanidhyy/admin-dashboard",
+    // live_site_link: "https://shoppy-dashboard-react.netlify.app/",
+  // },
+  // {
+    // name: "TikTok Clone",
+    // description:
+      // "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
+    // tags: [
+      // {
+        // name: "nextjs",
+        // color: "blue-text-gradient",
+      // },
+      // {
+        // name: "nodejs",
+        // color: "green-text-gradient",
+      // },
+      // {
+        // name: "tailwindcss",
+        // color: "pink-text-gradient",
+      // },
+    // ],
+    // image: project4,
+    // source_code_link: "https://github.com/sanidhyy/tiktok-clone",
+    // live_site_link: "https://tiktok-clone-react.vercel.app/",
+  // },
+  // {
+    // name: "Cryptoverse",
+    // description:
+      // "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+    // tags: [
+      // {
+        // name: "react",
+        // color: "blue-text-gradient",
+      // },
+      // {
+        // name: "rapidapi",
+        // color: "green-text-gradient",
+      // },
+      // {
+        // name: "css",
+        // color: "pink-text-gradient",
+      // },
+    // ],
+    // image: project5,
+    // source_code_link: "https://github.com/sanidhyy/crypto-app",
+    // live_site_link: "https://reactjscryptoapp.netlify.app/",
+  // },
+  // {
+    // name: "Travel Advisor",
+    // description:
+      // "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+    // tags: [
+      // {
+        // name: "react",
+        // color: "blue-text-gradient",
+      // },
+      // {
+        // name: "rapidapi",
+        // color: "green-text-gradient",
+      // },
+      // {
+        // name: "material-ui",
+        // color: "pink-text-gradient",
+      // },
+    // ],
+    // image: project6,
+    // source_code_link: "https://github.com/sanidhyy/travel-advisor",
+    // live_site_link: "https://travel-advisor-reactjs.netlify.app/",
+  // },
 ] as const;
 
 export const SOCIALS = [
   {
-    name: "YouTube",
-    icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
+    name: "Leetcode",
+    icon: leetcode,
+    link: "https://leetcode.com/u/shivanshplays/",
   },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
+    link: "https://www.linkedin.com/in/shivansh-saxena-288785168/",
   },
   {
     name: "Twitter",
     icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
+    link: "https://x.com/ShivanshPlays",
   },
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/ShivanshPlays",
   },
 ] as const;

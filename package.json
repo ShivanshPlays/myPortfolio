@@ -3,9 +3,9 @@
   "version": "1.1.4",
   "private": true,
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Shivansh Saxena",
+    "email": "shivanshsaxena2910@gmail.com",
+    "url": "https://github.com/ShivanshPlays"
   },
   "description": "Modern 3D Portfolio using React, Three.js and Typescript",
   "keywords": [
@@ -25,7 +25,7 @@
     "type": "git",
     "url": "https://github.com/sanidhyy/3d-portfolio.git"
   },
-  "homepage": "https://github.com/sanidhyy/3d-portfolio#readme",
+  "homepage": "https://ShivanshPlays.github.io/portfolio/",
   "bugs": {
     "url": "https://github.com/sanidhyy/3d-portfolio/issues",
     "email": "sanidhya.verma12345@gmail.com"
@@ -49,8 +49,8 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
-    "@react-three/fiber": "^8.15.19",
     "@react-three/drei": "^9.105.2",
+    "@react-three/fiber": "^8.15.19",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.25",
     "maath": "^0.10.7",
@@ -70,6 +70,7 @@
     "@types/tailwindcss": "^3.1.0",
     "@vitejs/plugin-react": "^4.0.3",
     "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.4",

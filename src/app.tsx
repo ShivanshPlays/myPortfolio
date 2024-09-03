@@ -26,16 +26,16 @@ const App = () => {
           <Navbar hide={hide} />
           <Hero />
         </div>
-        <About />
+        {/* <About /> */}
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks /> */}
 
         {/* Contact */}
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
+          {/* <StarsCanvas /> */}
         </div>
         <Footer />
       </div>

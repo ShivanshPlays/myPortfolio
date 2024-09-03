@@ -29,6 +29,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import rdso from "./company/rdso.png"
 
 import project1 from "./projects/project1.png";
 import project2 from "./projects/project2.png";
@@ -45,6 +46,8 @@ import github from "./socials/github.svg";
 import linkedin from "./socials/linkedin.svg";
 import twitter from "./socials/twitter.svg";
 import youtube from "./socials/youtube.svg";
+import leetcode from "./socials/leetcode.svg";
+
 
 export {
   backend,
@@ -73,6 +76,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  rdso,
   project1,
   project2,
   project3,
@@ -86,4 +90,5 @@ export {
   youtube,
   linkedin,
   twitter,
+  leetcode
 };
