@@ -267,7 +267,7 @@ export const PROJECTS = [
     ],
     image: project2,
     source_code_link: "https://github.com/ShivanshPlays/Medium-clone-blog-website-",
-    live_site_link: "https://medium-clone-blog-website-a1wea74lv-shivanshplays-projects.vercel.app/blogs",
+    live_site_link: "https://medium-clone-blog-website.vercel.app/",
   },
   // {
     // name: "Shoppy",
